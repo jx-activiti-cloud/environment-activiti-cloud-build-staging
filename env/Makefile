@@ -1,5 +1,5 @@
 clean:
-  rm -rf requirements.lock
+	rm -rf requirements.lock
 	rm -rf charts
 	rm -rf ${NAME}*.tgz
   
