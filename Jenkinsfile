@@ -15,7 +15,7 @@ pipeline {
           dir('env') {
             //sh 'jx step helm build'
             sh "make build"
-         // }
+          }
         }
       }
     }
